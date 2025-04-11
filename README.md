@@ -8,7 +8,7 @@ Repositorio del grupo X para el proyecto del ramo *Proyecto Inicial* – 2025.
 | Nombre y Apellido | Usuario GitHub | Correo USM               | Rol          |
 | ----------------- | -------------- | ------------------------ | ------------ |
 | TOMAS CARVAJAL    | @TomTEL68      | tcarjalm@usm.cl          | 200000000000 |
-| Nombre2 Apellido2 | @usuario2      | nombre2.apellido2@usm.cl | 200000000000 |
+| ZINEDINE ARJEL    | @Zizager       | Zarjel@usm.cl            | 202530015-k  |
 | Nombre3 Apellido3 | @usuario3      | nombre3.apellido3@usm.cl | 200000000000 |
 | Nombre4 Apellido4 | @usuario4      | nombre4.apellido4@usm.cl | 200000000000 |
 | Nombre5 Apellido4 | @usuario4      | nombre4.apellido4@usm.cl | 200000000000 |
