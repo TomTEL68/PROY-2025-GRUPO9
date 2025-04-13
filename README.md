@@ -18,7 +18,7 @@ Repositorio del grupo X para el proyecto del ramo *Proyecto Inicial* – 2025.
 
 Nuestro proyecto consiste en el desarrollo de un corrector de postura utilizando la Raspberry Pi Pico W.El
 dispositivo estará diseñado para monitorear la posición de la espalda del usuario en tiempo real mediante sensores,y alertará
- cuando se detecte una mala postura.
+ al usuario para que corriga y logre una posición adecuada,con el fin de prevenir molestias físicas.
 
 ---
 
