@@ -53,7 +53,7 @@ Repositorio del grupo X para el proyecto del ramo *Proyecto Inicial* – 2025.
 ├── docs/               # Documentación general y reportes
 ├── src/                # Código fuente del proyecto
 ├── tests/              # Casos de prueba
-├── assets/             # Imágenes, diagramas, etc.
+├── assets/             Presentación ppt: https://docs.google.com/presentation/d/1vpTP30czPQ5rnJlemLcHhbLzSoCb2XOXyMoU7RWRpfY/edit?usp=drivesdk
 └── README.md           # Este archivo
 ```
 
