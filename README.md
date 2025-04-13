@@ -31,7 +31,7 @@ Repositorio del grupo X para el proyecto del ramo *Proyecto Inicial* – 2025.
 
 ## 🧩 Alcance del proyecto
 
-> *Definir qué aspectos cubre el proyecto y qué queda fuera del alcance (limitaciones).*
+> El proyecto busca mejorar la postura de los profesores y estudiantes que pasan mucho tiempo en escritorios, aunque puede ser usado por todas las personas que lo necesiten. Algunas limitaciones del proyecto es que no podrá utilizarse al momento de dormir por no ser lo suficiente mente resistente pata soportar nuestro peso. Algunas mejoras a futuro son una aplicación que muestre como va tu postura a lo largo del día y una función que te ayude con la postura de algunos ejercicios.
 
 ---
 
