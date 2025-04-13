@@ -16,7 +16,9 @@ Repositorio del grupo X para el proyecto del ramo *Proyecto Inicial* – 2025.
 
 ## 📝 Descripción breve del proyecto
 
-> *Aquí va una descripción general del proyecto, incluyendo su propósito, contexto dentro del curso y motivación.*
+Nuestro proyecto consiste en el desarrollo de un corrector de postura utilizando la Raspberry Pi Pico W.El
+dispositivo estará diseñado para monitorear la posición de la espalda del usuario en tiempo real mediante sensores,y alertará
+ cuando se detecte una mala postura.
 
 ---
 
