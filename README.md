@@ -69,6 +69,10 @@ dispositivo estará diseñado para monitorear la posición de la espalda del usu
 
 ---
 
+## 📝 Documentos y Presentaciones
+[Presentacion 1](https://docs.google.com/presentation/d/1vpTP30czPQ5rnJlemLcHhbLzSoCb2XOXyMoU7RWRpfY/edit?slide=id.g27b320635fe_0_0#slide=id.g27b320635fe_0_0)
+
+---
 ## 📅 Cronograma de trabajo
 
 
