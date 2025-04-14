@@ -25,10 +25,12 @@ dispositivo estará diseñado para monitorear la posición de la espalda del usu
 ## 🎯 Objetivos
 
 - Objetivo general:
-  - *Describir el objetivo principal del proyecto.*
+  - Desarrollar un dipositivo pequeño y portatil que ayude a mejorar la postura de una persona enviando alertas caundo detecte que este encorvada o adoptando una mala postura.
 - Objetivos específicos:
-  - *Listar objetivos concretos que permitirán alcanzar el objetivo general.*
-
+  - Desarrollar el sistema de detección de postura mediante sensores, que identifiquen cuando la persona adopta una mala postura.
+  - Programar una alerta automática que se active cuando la persona esta en una mala postura durante una X cantidad de tiempo.
+  - Crear un prototipo funcional del dispositivo a desarrollar que sea pequeño, liviano y cómodo de llevar.
+  - Optimizar el consumo de energía del dispositivo para garantizar una autonomía minima sin la necesidad de recargarlo frecuentemente.
 ---
 
 ## 🧩 Alcance del proyecto
