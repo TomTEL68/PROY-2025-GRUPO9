@@ -76,7 +76,7 @@ dispositivo estará diseñado para monitorear la posición de la espalda del usu
 ## 📅 Cronograma de trabajo
 
 
-[Carta Gantt](https://docs.google.com/spreadsheets/d/1-a12rqQUjqs91zJ-8pJpN8k7DxUsVjXg/edit?usp=drivesdk&ouid=110461601032943493190&rtpof=true&sd=true)
+[Carta Gantt](https://docs.google.com/spreadsheets/d/1owv-qJoIXr2M_csk8ziTQ3kosMEWWK-S/edit?usp=sharing&ouid=104960101161963807007&rtpof=true&sd=true)
 
 ---
 
