@@ -33,7 +33,25 @@ tiempo_ultimo_envio = 0
 intervalo_envio = 60  # en segundos
 
 while True:
-    ax, ay, az = mpu.read_accel_data()
+    try:
+        ax, ay, az = mpu.read_accel_data()
+
+        # chequea si el mpu6050 da grados en 0 y reinicia sensor
+        if ax == 0 and ay == 0 and az == 0:
+            print("Lecturas inválidas del MPU6050 (0, 0, 0). Reiniciando sensor...")
+            mpu = MPU6050(i2c)
+            mpu.wake()
+            continue
+
+    except Exception as e:
+        print("Error leyendo del MPU6050:", e)
+        try:
+            mpu = MPU6050(i2c)
+            mpu.wake()
+            print("MPU6050 reiniciado.")
+        except Exception as e2:
+            print("Fallo al reiniciar el MPU6050:", e2)
+        continue
     inclinacion_x = calcular_inclinacion_x(ax, ay, az)
     mala_postura = detectar_mala_postura(inclinacion_x)
 
