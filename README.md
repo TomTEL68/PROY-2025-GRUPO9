@@ -1,7 +1,7 @@
 # PROY-2025-GRUPO9
 
 
-Repositorio del grupo X para el proyecto del ramo *Proyecto Inicial* – 2025.
+Repositorio del grupo 9 para el proyecto del ramo *Proyecto Inicial* – 2025.
 
 ## 👥 Integrantes del grupo
 
@@ -42,11 +42,15 @@ dispositivo estará diseñado para monitorear la posición de la espalda del usu
 ## 🛠️ Tecnologías y herramientas utilizadas
 
 - Lenguaje(s) de programación:
-  - Ej: Python, JavaScript, C++
+  - Micropython 
 - Microcontroladores
   - Raspberry Pi Pico W 2
 - Sensores
-
+  - MPU6050
+- Actuadores
+  - Buzzer
+- Fuente de alimentación
+   - Power bank 5V
 ---
 
 ## 🗂️ Estructura del repositorio
@@ -57,7 +61,7 @@ dispositivo estará diseñado para monitorear la posición de la espalda del usu
 ├── docs/               # Documentación general y reportes
 ├── src/                # Código fuente del proyecto
 ├── tests/              # Casos de prueba
-├── assets/             [Presentación ppt](https://docs.google.com/presentation/d/1vpTP30czPQ5rnJlemLcHhbLzSoCb2XOXyMoU7RWRpfY/edit?usp=drivesdk)
+├── assets/             # Imagenés, diagramas, etc.
 └── README.md           # Este archivo
 ```
 
