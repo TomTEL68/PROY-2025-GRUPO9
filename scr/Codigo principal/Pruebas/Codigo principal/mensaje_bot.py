@@ -1,8 +1,9 @@
 import urequests
 import Wifi
 
-BOT_TOKEN = "8195083435:AAFsIF97ztL0mvbJSz6O6BNGgjR2S31fClw"
-CHAT_ID = "-4807170489"
+# No se si era necesario pero quité estos datos por si acaso :)
+BOT_TOKEN = "Bot Token"
+CHAT_ID = "Chat ID"
 
 def alerta_telegram(mensaje):
     url = f"https://api.telegram.org/bot{BOT_TOKEN}/sendMessage"
