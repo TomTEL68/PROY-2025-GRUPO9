@@ -28,6 +28,9 @@ def detectar_mala_postura(angulo_x):
     rango_buena_postura_max = -70
     return angulo_x < rango_buena_postura_min or angulo_x > rango_buena_postura_max
 
+def contador_malas_postura():
+    contador_mala_postura = 0
+    
 # ⏰ Temporizador para evitar enviar mensajes seguidos
 tiempo_ultimo_envio = 0
 intervalo_envio = 60  # en segundos
@@ -59,6 +62,7 @@ while True:
         Sonido_buzzer(0.5)
         time.sleep(2)
         print("¡Mala postura detectada!")
+        contador_mala_postura += 1
         
         tiempo_actual = time.time()
         if tiempo_actual - tiempo_ultimo_envio > intervalo_envio:
