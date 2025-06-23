@@ -73,7 +73,78 @@ dispositivo estará diseñado para monitorear la posición de la espalda del usu
 
 ---
 
-## 📝 Documentos y Presentaciones
+## 📝 Instrucciones de uso
+Preparación
+ 
+ Paso 1:
+ 
+  - Instalar micropython en la Raspberry Pi Pico 2 w 
+ 
+ Paso 2:
+ 
+  - Descargar el editor de codigo Thonny
+
+ Paso 3:
+ 
+  - Copia los archivos y librerías en una carpeta o arrastralos directamente a Thonny
+
+Bot de Telegram:
+ - Abre Telegram.
+
+ - Busca y abre el bot @BotFather.
+
+ - Escribe /start y luego /newbot.
+
+ - Sigue las instrucciones para:
+
+   - Darle un nombre (ej: MiPrimerBot)
+
+   - Crear un usuario (ej: miprimermibot_bot)
+
+  - El bot te dará un TOKEN, algo como:
+
+    > 123456789:ABCdefGhIjk-LMnopQRstUVwxyz123456789
+
+Chat ID del bot:
+
+- Envía un mensaje cualquiera a tu bot
+- Ahora en tu navegador copia este link y reemplaza el token en el lugar correspondiente:
+
+  > https://api.telegram.org/botTU_TOKEN_AQUÍ/getUpdates
+
+  * Coloca tu token donde dice "TU_TOKEN_AQUÍ"
+
+- Luego aparecerá un monton de información, pero habra un apartado que dice "Chat:" y cerca de ahí encontrarás algo que dice "id", ese será tu chat id así que deberás reemplazarlo en la parte correspondiente del codigo "mensaje_bot.py"
+ 
+Conexión:
+
+> Guiate con la datasheet y el pinout que se encuentran en la sección "assets"
+
+  MPU6050
+ | Pin GPIO (Raspberry)  | Posición física (Raspberry) | En MPU6050  |
+ | --------------------- | --------------------------- | ----------- |
+ |         GND           |              38             |      GND    |
+ |       3V3(OUT)        |              36             |      VCC    |
+ |         GP21          |              27             |      SCL    |
+ |         GP20          |              26             |      SDA    |
+
+  Buzzer Activo ("2 patas")
+ | Pin GPIO (Rasperry) | Posición física (Raspberry) |  En Buzzer  |
+ | ------------------- | --------------------------- | ----------- |
+ |        GP15         |              20             |  Pata larga | 
+ |        GND          |              18             |  Pata corta |
+
+Ahora si quieres que la raspberry funcione sin la necesidad de tu computador debes hacer lo siguiente:
+ - Primero: Sube el archivo main.py y las librerias a la raspberry
+ - Segundo: Obten una power bank de 5V
+
+Eso es todo lo que hay que hacer para que la raspberry funcione de manera autonoma.
+
+Consideraciones:
+ - La raspberry Pi Pico 2 w funciona solo con una banda de 2.4 GHz, una banda de 5 GHz no funciona, al menos en este modelo. (Para el caso del wifi)
+ - El proyecto actualmente no tiene un reloj sincronizado a tiempo real, si no que está hecho para que envie el reporte despues de cierta cantidad de horas desde que se encendió, este tiempo se puede cambiar en la sección de reporte diario en "inclinacion_v2.py".
+---
+## 🖥️ Documentos y Presentaciones
 [Presentacion 1](https://docs.google.com/presentation/d/1vpTP30czPQ5rnJlemLcHhbLzSoCb2XOXyMoU7RWRpfY/edit?slide=id.g27b320635fe_0_0#slide=id.g27b320635fe_0_0)
 
 ---
