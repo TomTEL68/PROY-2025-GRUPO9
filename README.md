@@ -164,3 +164,9 @@ Consideraciones:
 ## 📌 Notas adicionales
 
 > *Espacio para dejar cualquier comentario útil, como pendientes, acuerdos del grupo, consideraciones especiales, etc.*
+
+## 🎥 Proyecto en funcionamiento
+
+Aquí dejamos un enlace donde pueden ver de manera resumida que es lo que que trae este proyecto además de una breve demostración de su uso práctico
+
+ > https://youtube.com/shorts/D9oQ2QforbE?si=rDbhmO2RecNxVAoo
