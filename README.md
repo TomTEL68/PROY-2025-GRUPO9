@@ -17,18 +17,18 @@ Repositorio del grupo 9 para el proyecto del ramo *Proyecto Inicial* – 2025.
 ## 📝 Descripción breve del proyecto
 
 Nuestro proyecto consiste en el desarrollo de un corrector de postura utilizando la Raspberry Pi Pico W.El
-dispositivo estará diseñado para monitorear la posición de la espalda del usuario en tiempo real mediante sensores,y alertará
- al usuario para que corriga y logre una posición adecuada,con el fin de prevenir molestias físicas.
+dispositivo estará diseñado para monitorear la posición de la espalda del usuario en tiempo real mediante sensores, y alertará
+ al usuario para que corrija y logre una posición adecuada, con el fin de prevenir molestias físicas.
 
 ---
 
 ## 🎯 Objetivos
 
 - Objetivo general:
-  - Desarrollar un dipositivo pequeño y portatil que ayude a mejorar la postura de una persona enviando alertas caundo detecte que este encorvada o adoptando una mala postura.
+  - Desarrollar un dipositivo pequeño y portatil que ayude a mejorar la postura de una persona enviando alertas cuando detecte que esté encorvada o adoptando una mala postura.
 - Objetivos específicos:
   - Desarrollar el sistema de detección de postura mediante sensores, que identifiquen cuando la persona adopta una mala postura.
-  - Programar una alerta automática que se active cuando la persona esta en una mala postura durante una X cantidad de tiempo.
+  - Programar una alerta automática que se active cuando la persona está en una mala postura durante una X cantidad de tiempo.
   - Crear un prototipo funcional del dispositivo a desarrollar que sea pequeño, liviano y cómodo de llevar.
   - Optimizar el consumo de energía del dispositivo para garantizar una autonomía minima sin la necesidad de recargarlo frecuentemente.
 ---
@@ -50,7 +50,7 @@ dispositivo estará diseñado para monitorear la posición de la espalda del usu
 - Actuadores
   - Buzzer
 - Fuente de alimentación
-   - Power bank 5V
+  - Power bank 5V
 ---
 
 ## 🗂️ Estructura del repositorio
@@ -89,6 +89,7 @@ Preparación
   - Copia los archivos y librerías en una carpeta o arrastralos directamente a Thonny
 
 Bot de Telegram:
+
  - Abre Telegram.
 
  - Busca y abre el bot @BotFather.
@@ -114,7 +115,7 @@ Chat ID del bot:
 
   * Coloca tu token donde dice "TU_TOKEN_AQUÍ"
 
-- Luego aparecerá un monton de información, pero habra un apartado que dice "Chat:" y cerca de ahí encontrarás algo que dice "id", ese será tu chat id así que deberás reemplazarlo en la parte correspondiente del codigo "mensaje_bot.py"
+- Luego aparecerá un montón de información, pero habrá un apartado que dice "Chat:" y cerca de ahí encontrarás algo que dice "id", ese será tu chat id así que deberás reemplazarlo en la parte correspondiente del código "mensaje_bot.py"
  
 Conexión:
 
@@ -142,7 +143,7 @@ Eso es todo lo que hay que hacer para que la raspberry funcione de manera autono
 
 Consideraciones:
  - La raspberry Pi Pico 2 w funciona solo con una banda de 2.4 GHz, una banda de 5 GHz no funciona, al menos en este modelo. (Para el caso del wifi)
- - El proyecto actualmente no tiene un reloj sincronizado a tiempo real, si no que está hecho para que envie el reporte despues de cierta cantidad de horas desde que se encendió, este tiempo se puede cambiar en la sección de reporte diario en "inclinacion_v2.py".
+ - El proyecto actualmente no tiene un reloj sincronizado a tiempo real, si no que está hecho para que envie el reporte después de cierta cantidad de horas desde que se encendió, este tiempo se puede cambiar en la sección de reporte diario en "inclinacion_v2.py".
 ---
 ## 🖥️ Documentos y Presentaciones
 [Presentacion 1](https://docs.google.com/presentation/d/1vpTP30czPQ5rnJlemLcHhbLzSoCb2XOXyMoU7RWRpfY/edit?slide=id.g27b320635fe_0_0#slide=id.g27b320635fe_0_0)
@@ -157,8 +158,7 @@ Consideraciones:
 
 ## 📚 Bibliografía
 
-[Enlace](https://google.com)
-
+[Datasheet pico 2 w](https://datasheets.raspberrypi.com/picow/pico-2-w-datasheet.pdf)
 ---
 
 ## 📌 Notas adicionales
